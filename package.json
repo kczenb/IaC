@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node app.mjs",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "supertest": "^6.3.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
