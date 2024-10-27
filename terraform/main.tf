@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "node_app_sg" {
-  name        = "node_app_security_group"
+  name        = "node_app_security_group_1"
   description = "Allow inbound traffic on port 3000"
 
   ingress {
